@@ -2,10 +2,17 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{Inknut: 'Inknut Antiqua'
+      },
+
+      height: { lx: "38rem", ly:"18rem" ,lz: "38rem", la:"25rem"},
+    
+    },
   },
-  plugins: [],
+  plugins: [ require('flowbite/plugin')],
 }
 

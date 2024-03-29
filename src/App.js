@@ -4,17 +4,23 @@ import Home from './Pages/Home';
 import StudentDetails from'./Pages/StudentDetails'; 
 import CourseDetails from './Pages/CourseDetails';
 import History from './Pages/History';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
 import Sidebar from './Components/Sidebar';
+import Admin from './Components/Admin';
 
 function App() {
   return (
     <Router>
         <Routes>
-        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/Home" element={<Home/>}/>
         <Route path="/StudentDetails" element={< StudentDetails/>}/>
         <Route path="/CourseDetails" element={< CourseDetails/>}/>
         <Route path="/History" element={< History/>}/>
+        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Register" element={<Register/>}/>
         <Route path="/Sidebar" element={< Sidebar/>}/>
+        <Route path="/Admin" element={<Admin/>}/>
       </Routes>
     </Router>
    
