@@ -9,7 +9,7 @@ module.exports = {
       fontFamily:{Inknut: 'Inknut Antiqua'
       },
 
-      height: { lx: "38rem", ly:"18rem" ,lz: "38rem", la:"25rem"},
+      height: { lx: "38rem", ly:"18rem" ,lz: "38rem", la:"25rem", lb:"35.5rem", lc:"38rem"}, 
     
     },
   },

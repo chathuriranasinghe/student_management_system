@@ -8,6 +8,8 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 import Sidebar from './Components/Sidebar';
 import Admin from './Components/Admin';
+import EditStudent from'./Pages/EditStudent'; 
+import EditCourse from './Pages/EditCourse';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/Register" element={<Register/>}/>
         <Route path="/Sidebar" element={< Sidebar/>}/>
         <Route path="/Admin" element={<Admin/>}/>
+        <Route path="/EditStudent" element={< EditStudent/>}/>
+        <Route path="/EditCourse" element={< EditCourse/>}/>
       </Routes>
     </Router>
    
