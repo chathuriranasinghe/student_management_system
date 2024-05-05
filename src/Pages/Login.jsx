@@ -1,5 +1,6 @@
 import React from 'react';
 import kdu from '../images/kdu.png';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   return (
@@ -29,7 +30,9 @@ export default function Login() {
     <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
   </div>
   <div className='relative flex items-center justify-center'>
+    <Link to='/Home'>
   <button type="login" class="text-black font-semibold bg-[#009DCE] hover:bg-[#97CDD0] focus:ring-2 focus:outline-none focus:ring-[#97CDD0] rounded-lg text-lg w-full sm:w-auto px-5 py-2 text-center dark:bg-[#009DCE]  dark:hover:bg-[#97CDD0] dark:focus:ring-[#97CDD0]" >Login</button>
+    </Link>
     </div>
 </form>
           </div>
